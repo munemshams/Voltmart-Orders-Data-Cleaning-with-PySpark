@@ -80,9 +80,9 @@ The code is fully rewritten, professional, and engineering-oriented.
 | `Retail_Orders_Cleaning_PySpark.ipynb` | Main PySpark notebook performing all cleaning operations. |
 | `orders_data.parquet` | Raw input dataset containing last year's orders. |
 | `orders_data_clean.parquet` | Final cleaned output dataset generated using PySpark. |
-| `part-00000-93df7b0d-...snappy.parquet` | Parquet part file inside the cleaned output dataset folder. |
-| `.crc file` | Automatic Spark integrity checksum file for the parquet output. |
 | `README.md` | Project documentation and explanation. |
+
+PySpark generates a folder, not a single file so the cleaned dataset was generated as a folder.
 
 **Practical Application**
 
