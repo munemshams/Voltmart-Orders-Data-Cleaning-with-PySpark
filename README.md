@@ -1,4 +1,4 @@
-🧹 Voltmart Orders Data Cleaning with PySpark
+**Voltmart Orders Data Cleaning with PySpark**
 
 This project prepares Voltmart’s online orders dataset for downstream demand forecasting by the Machine Learning team.
 The raw dataset (orders_data.parquet) contains last year's order activity across multiple U.S. states, and the cleaned output (orders_data_clean.parquet) is structured, standardized, and ready for modeling.
