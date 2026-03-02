@@ -23,15 +23,15 @@ The final output is a clean and structured orders dataset that matches all requi
 
 **Cleaning Requirements Implemented**
 
-✔ Remove unwanted datetime ranges
+- Remove unwanted datetime ranges
 
 Orders placed between 00:00 and 05:00 (inclusive) are removed.
 
-✔ Convert timestamp → date
+- Convert timestamp → date
 
 order_date is cast from timestamp to a pure date field.
 
-✔ Add time_of_day feature
+- Add time_of_day feature
 
 Based on the order’s hour:
 
@@ -41,7 +41,7 @@ afternoon → 12:00–18:00
 
 evening → 18:00–24:00
 
-✔ Standardize product/category
+- Standardize product/category
 
 All product values → lowercase
 
@@ -49,7 +49,7 @@ All category values → lowercase
 
 Remove rows containing "tv" (Voltmart no longer sells TVs)
 
-✔ Extract purchase state
+- Extract purchase state
 
 purchase_state is derived from purchase_address, where the state abbreviation is the second-to-last token.
 
